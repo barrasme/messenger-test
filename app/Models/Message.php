@@ -9,6 +9,8 @@ class Message extends Model
 {
     use HasFactory;
 
+    public $fillable = ['user_id', 'body'];
+
     /**
      * Return the relationship and map it to the user_id field
      *
